@@ -1,0 +1,14 @@
+package jdbc.teste;
+
+import jdbc.dao.ContatoDao;
+
+public class TestaLista {
+
+	public static void main(String[] args) {
+		ContatoDao dao = new ContatoDao();
+		
+		List<Contato> contatos = dao.getLista();
+		
+	}
+
+}

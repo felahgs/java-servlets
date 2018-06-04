@@ -1,0 +1,12 @@
+package jdbc.dao;
+
+public class ContatoDao {
+
+    // a conexão com o banco de dados
+    private Connection connection;
+
+    public ContatoDao() {
+        this.connection = new ConnectionFactory().getConnection();
+    }
+
+}

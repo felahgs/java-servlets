@@ -1,0 +1,10 @@
+package teste;
+
+public abstract class TesteConexao {
+
+	public static void main() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

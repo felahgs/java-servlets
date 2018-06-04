@@ -1,0 +1,16 @@
+package teste;
+
+public abstract class TesteConexao {
+
+	public static void main() {
+		// TODO Auto-generated method stub
+        Connection connection = new ConnectionFactory().getConnection();
+        System.out.println("Conexão aberta!");
+        extracted(connection);
+	}
+
+	private static void extracted(Connection connection) {
+		connection.close();
+	}
+
+}

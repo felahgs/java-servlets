@@ -1,0 +1,15 @@
+package jdbc.dao;
+
+import com.mysql.jdbc.Connection;
+import jdbc.factory.ConnectionFactory;
+
+public class ContatoDao {
+
+    // a conexão com o banco de dados
+    private Connection connection;
+
+    public ContatoDao() {
+        this.connection = new ConnectionFactory().getConnection();
+    }
+
+}
